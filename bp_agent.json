@@ -57,27 +57,27 @@
     },
     {
       "name": "num_pend_fwd",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundles pending forwarding"
     },
     {
       "name": "num_pend_dis",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundles awaiting dispatch"
     },
     {
       "name": "num_in_cust",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundles"
     },
     {
       "name": "num_pend_reassembly",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundles pending reassembly"
     },
     {
       "name": "bundles_by_priority",
-      "type": "UINT",
+      "type": "UVAST",
       "parmspec": [{
         "type": "UINT",
         "name": "mask"
@@ -86,7 +86,7 @@
     },
     {
       "name": "bytes_by_priority",
-      "type": "UINT",
+      "type": "UVAST",
       "parmspec": [{
         "type": "UINT",
         "name": "mask"
@@ -95,7 +95,7 @@
     },
     {
       "name": "src_bundles_by_priority",
-      "type": "UINT",
+      "type": "UVAST",
       "parmspec": [{
         "type": "UINT",
         "name": "mask"
@@ -104,7 +104,7 @@
     },
     {
       "name": "src_bytes_by_priority",
-      "type": "UINT",
+      "type": "UVAST",
       "parmspec": [{
         "type": "UINT",
         "name": "mask"
@@ -113,17 +113,17 @@
     },
     {
       "name": "num_fragmented_bundles",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of fragmented bundles"
     },
     {
       "name": "num_fragments_produced",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundles with fragmentary payloads produced by this node"
     },
     {
       "name": "num_failed_by_reason",
-      "type": "UINT",
+      "type": "UVAST",
       "parmspec": [{
         "type": "UINT",
         "name": "mask"
@@ -132,47 +132,47 @@
     },
     {
       "name": "num_bundles_deleted",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundles deleted by this node"
     },
     {
       "name": "failed_custody_bundles",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundle fails at this node"
     },
     {
       "name": "failed_custody_bytes",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number bytes of fails at this node"
     },
     {
       "name": "failed_forward_bundles",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number bundles not forwarded by this node"
     },
     {
       "name": "failed_forward_bytes",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bytes not forwaded by this node"
     },
     {
       "name": "abandoned_bundles",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundles abandoned by this node"
     },
     {
       "name": "abandoned_bytes",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bytes abandoned by this node"
     },
     {
       "name": "discarded_bundles",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bundles discarded by this node"
     },
     {
       "name": "discarded_bytes",
-      "type": "UINT",
+      "type": "UVAST",
       "description": "number of bytes discarded by this node"
     },
     {
